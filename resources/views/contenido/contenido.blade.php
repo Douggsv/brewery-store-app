@@ -4,11 +4,11 @@
     <!-- CONTENIDO DE CADA MENÚ. -->
 
 <template v-if="menu==0">
-<example-component></example-component>
+<h1>contenido menu 0</h1>
 </template>
 
 <template v-if="menu==1">
-<h1>Mostrando Mostrando contenido menu 1</h1>
+    <categoria></categoria>
 </template>
 
 <template v-if="menu==2">
